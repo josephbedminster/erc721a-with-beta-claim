@@ -11,12 +11,7 @@ import "erc721a/contracts/ERC721A.sol";
 
 //ERC721A optimization for Otherside.xyz
 
-// Developed & Authored by cygaar
-// https://twitter.com/cygaar_dev/status/1520650422381211648
-
-// Verified by 0xdespect lmaooooooooooo
-// https://twitter.com/0xdespect
-
+// Inspired by cygaar and twitter users / erc721a chiru-labs
 
 contract Land is ERC721A, Ownable, ReentrancyGuard {
     using SafeERC20 for IERC20;
